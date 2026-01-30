@@ -76,12 +76,12 @@ The pipeline uses **nearest-neighbor matching** by segment start time:
 1. For each reference segment, find the closest coder segment of the same behavior
 2. Pair segments only if `|start_time_diff| ≤ MATCH_THRESHOLD` (default: 10s)
 3. Each coder segment is used at most once (greedy matching)
-4. Compute IoU for overlap quality assessment
+4. Compute IoU for overlap quality assessment (please ignore this parttttttt, I am not using it for now)
 
 ### Key Parameters
 ```python
 MATCH_THRESHOLD_SEC = 10.0      # Maximum start time difference for pairing
-IOU_THRESHOLD = 0.5             # Minimum IoU for good overlap
+IOU_THRESHOLD = 0.5             # Minimum IoU for good overlap (I am not using it for now)
 SUMMARY_MAX_START_DIFF_SEC = 30.0  # Outlier exclusion for statistics
 ```
 
