@@ -71,9 +71,6 @@ project/
 | `validation_cheated_comparison.csv` | Binary classification agreement results |
 | `validation_behavior_differences.csv` | Missing/extra behavior discrepancies |
 | `validation_timestamp_differences.csv` | Detailed timestamp alignment data |
-| `enhanced_validation_report.txt` | Statistical summary with recommendations |
-| `validation_analysis_*.png` | Visualization plots |
-| `behavior_quality_analysis.csv` | Per-behavior quality metrics |
 
 ## Methodology
 
