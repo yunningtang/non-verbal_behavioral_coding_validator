@@ -10,7 +10,7 @@ A Python pipeline for validating inter-rater reliability in behavioral coding st
 **Behavioral Status Comparison** - Binary classification agreement (e.g., cheated/not cheated)  
 **Behavior Presence Check** - Identifies missing or extra coded behaviors  
 **Timestamp Alignment** - Nearest-neighbor matching with configurable thresholds  
-**IoU Computation** - Intersection over Union for segment overlap quality（please ignore for now) 
+**IoU Computation** - Intersection over Union for segment overlap quality（please ignore for now, I am not using it) 
 **Comprehensive Reporting** - Precision, recall, F1 scores, and detailed discrepancy logs  
 **Visual Analytics** - Automated generation of distribution plots and bias analysis
 
